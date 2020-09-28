@@ -51,10 +51,11 @@ while i < 6:
 #Continue#
 i = 0
 while i < 6:
-	i += 1
-	if i == 3:
-		continue
-	print(i)
+    i += 1
+    if i == 3:
+        print("It's a three!")
+        continue
+    print(i)
 
 #Default Parameter#
 
