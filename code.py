@@ -98,12 +98,12 @@ class OldPerson:
 		self.genderMale = genderMale
 		self.hair = hair
 		self.age = age
-    
+		
     def getInfor(self):
-    	print('This person’s name is: ' + self.name + '.  They are ' + self.height + 'inches tall.  They are ' + self.age + ' years old')
+		print('This person’s name is: ' + self.name + '.  They are ' + self.height + 'inches tall.  They are ' + self.age + ' years old')
 
-    def sayHello(self):
-    	print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
+	def sayHello(self):
+		print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
 
 person2 = OldPerson('Jordan', 70, True, True, 21)
 
@@ -114,9 +114,9 @@ person2.sayHello
 person2.age = int(input("How old are you? "))
 hair = input("Do you have hair? ")
 if hair == 'yes':
-    person2.hair = True
+	person2.hair = True
 else:
-    person2.hair = False
+	person2.hair = False
 print(person2.hair)
 
 
@@ -132,9 +132,9 @@ except:
 try:
 	print(y)
 except NameError:
-    print("Variable x is not defined")
+	print("Variable x is not defined")
 except:
-    print("Something else went wrong")
+	print("Something else went wrong")
 finally:
 	print('The ‘try except’ is finished')
 
