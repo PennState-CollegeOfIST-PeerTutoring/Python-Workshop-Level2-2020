@@ -43,18 +43,18 @@ print(calc_salesTax(25.00, .06))
 #Break#
 i = 1
 while i < 6:
-  print(i)
-  if i == 3:
-    break
-  i += 1
+	print(i)
+	if i == 3:
+		break
+	i += 1
 
 #Continue#
 i = 0
 while i < 6:
-  i += 1
-  if i == 3:
-    continue
-  print(i)
+	i += 1
+	if i == 3:
+		continue
+	print(i)
 
 #Default Parameter#
 
@@ -99,10 +99,10 @@ class OldPerson:
 		self.age = age
     
     def getInfor(self):
-      print('This person’s name is: ' + self.name + '.  They are ' + self.height + 'inches tall.  They are ' + self.age + ' years old')
+    	print('This person’s name is: ' + self.name + '.  They are ' + self.height + 'inches tall.  They are ' + self.age + ' years old')
 
     def sayHello(self):
-      print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
+    	print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
 
 person2 = OldPerson('Jordan', 70, True, True, 21)
 
