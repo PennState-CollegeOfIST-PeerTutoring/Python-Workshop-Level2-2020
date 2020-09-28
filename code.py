@@ -92,23 +92,23 @@ print(person1.hair)
 #Constructors#
 
 class OldPerson:
-	def __init__(self, name, height, genderMale, hair, age):
-		self.name = name
-		self.height = height
-		self.genderMale = genderMale
-		self.hair = hair
-		self.age = age
+    def __init__(self, name, height, genderMale, hair, age):
+    	self.name = name
+    	self.height = height
+    	self.genderMale = genderMale
+    	self.hair = hair
+    	self.age = age
 		
-    def getInfor(self):
-		print('This person’s name is: ' + self.name + '.  They are ' + self.height + 'inches tall.  They are ' + self.age + ' years old')
+    def getInfo(self):
+        print('This person’s name is: ' + str(self.name) + '.  They are ' + str(self.height) + ' inches tall.  They are ' + str(self.age) + ' years old')
 
-	def sayHello(self):
-		print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
+    def sayHello(self):
+        print('Why hello there, my name is ' + self.name + ', it is a pleasure speaking with you tonight!')
 
 person2 = OldPerson('Jordan', 70, True, True, 21)
 
-person2.getInfo
-person2.sayHello
+person2.getInfo()
+person2.sayHello()
 
 #Modifying Properties and Objects#
 person2.age = int(input("How old are you? "))
